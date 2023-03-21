@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,400;1,500;1,600;1,800&display=swap');
+body, h1,h2,h3,h4,h5,h6 p, a ,ul{
+	margin: 0px;
+	padding:0px;
+}
+.container-fluid{
+	width: 100%;
+}
+.container{
+	width: 80%;
+	margin: 0px auto;
+	box-sizing: border-box;
+}
+
+.row .display-flex{
+	display: flex;
+}
+.justify-content{
+	justify-content: center;
+}
+.justify-end{
+	justify-content: end;
+}
+.justify-between{
+	justify-content: space-between;
+}
+li{
+	list-style: none; 
+}
+a{
+	text-decoration: none;
+	display: inline-block;
+}
+span{
+	display: inline-block;
+}
+/*navbar start*/
+.nav-section{
+	padding: 10px 0px;
+}
+.navbar-brand-logo {
+	flex: 1 1 100%;
+}
+.navbar-brand-logo a{
+	/*flex: 1 1 100%;*/
+	font-size: 20px;
+	color: #101214;
+	font-weight: 700;
+	padding: 4px 0px;
+	font-family: "Playfair Display", "Segoe UI", "Helvetica Neue", Arial;
+}
+.navbar-nav{
+	flex: 1 1 600%;
+}
+.navbar-nav ul li a{
+	font-size: 15px;
+	color: #101214;
+	font-weight: 400;
+	padding: 8px 10px;
+	margin: 0px 4px;
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+}
+.navbar-nav a span{
+	background: #7832E2;
+	font-size:  12px;
+	color: white;
+	border-radius: 4px;
+	font-weight: 700;
+	padding: 2px 5px;
+}
+.navbar-button {
+	flex: 1 1 100%;
+	text-align: right;
+}
+.navbar-button a{
+	/*flex: 1 1 100%;*/
+	font-size: 15px;
+	color: green;
+	font-weight: 400;
+	background: #white;
+	padding: 10px 14px;
+	border-radius: 6px;
+	border: 2px solid #03A87C;
+	font-family: "Playfair Display", "Segoe UI", "Helvetica Neue", Arial;
+}
+.navbar-button a:hover{
+	color: white;
+	background: #03A87C;
+}
+/*navbar end*/
+
+/*header start*/
+.content-box{
+	height: 500px;
+	display: flex;
+}
+.content{
+	flex: 1 1 100%;
+	padding: 90px 40px;
+	background:#E8F3EC;
+}
+.content h1{
+	font-size: 40px;
+	font-family: "Playfair Display", "Segoe UI", "Helvetica Neue", Arial;
+	font-weight: 700;
+	line-height: 48px; 
+}
+.content p{
+	font-size: 16px;
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-weight: 400;
+	line-height: 26px; 
+	text-align:justify;
+}
+.content a{
+	height: 30px;
+	width: 20%;
+	background-color: white;
+	border: 2px solid black;
+	color: black;
+	font-size: 16px;
+	text-align: center;
+	border-radius: 6px;
+	font-family:"Source Sans Pro";
+	font-weight: 400;
+	line-height: 26px; 
+	padding: 10px 14px;
+}
+.content  a:hover{
+	color: white;
+	background: #101214;
+}
+.image{
+	flex: 1 1 100%;
+}
+.image img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/*header end*/
+
+/*main-section-start*/
+.main-section-1{
+	height: 350px;
+	display: flex;
+	margin-top: 35px;
+}
+.main-section-1-left-content{
+	flex: 1 1 100%;
+}
+.main-section-1-left-content img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.main-section-1-left-content-bottom{
+	margin: 20px 10px;
+}
+.main-section-1-left-content-bottom .brain{
+	color: #101214;
+	font-size: 24px;
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-weight: 700;
+	line-height: 29px; 
+}
+.main-section-1-left-content-bottom a:hover{
+	color: #03A87C;
+}
+.main-section-1-left-content-bottom p{
+	margin-top: -3px;
+	color: #212529;
+	font-size: 16px;
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-weight: 400;
+	line-height: 26px;
+}
+.main-section-1-left-content-bottom a{
+	color: #6c757d;
+	font-size: 14px;
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-weight: 400;
+	line-height: 22px; 
+}
+.main-section-1-left-content-bottom .small-p{
+	color: #6c757d;
+	font-size: 14px;
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-weight: 400;
+	line-height: 22px; 
+}
+.main-section-1-right-content {
+	flex: 1 1 100%;
+	margin-left: 30px;
+}
+
+.main-section-1-right-content-blog-1{
+	height:100px;
+	width: 100%;
+	display: flex;
+}
+.main-section-1-right-content-blog-1 a:hover{
+	color: #03A87C;
+}
+.main-section-1-right-content-blog-1 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.main-section-1-right-content-blog-1-content a{
+	color: #191919;
+	font-size: 16px;
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-weight: 700;
+	line-height: 19px; 
+	margin-top: 0px 0px 0px 8px;
+	padding-top: 0px;
+}
+.main-section-1-right-content-blog-1-content .jake-bittle{
+	color: #6c757d;
+	font-size: 14px;
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-weight: 400;
+	line-height: 22px;
+    margin: 0px 0px 0px 8px;
+	padding-top: 0px;
+		
+}
+.main-section-1-right-content-blog-1-content span{
+	color: #6c757d;
+	font-size: 14px;
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-weight: 400;
+	line-height: 22px; 
+	margin-top: 0px 0px 0px 8px;
+	padding-top: 0px;
+}
+.main-section-1-right-content-blog-2{
+	height:100px;
+	width: 100%;
+	display: flex;
+	margin-top: 15px;
+}
+.main-section-1-right-content-blog-2 a:hover{
+	color: #03A87C;
+}
+.main-section-1-right-content-blog-2 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.main-section-1-right-content-blog-2-content a{
+	color: #191919;
+	font-size: 16px;
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-weight: 700;
+	line-height: 19px; 
+	margin-top: 0px 0px 0px 8px;
+	padding-top: 0px;
+}
+.main-section-1-right-content-blog-2-content .jake-bittle{
+	color: #6c757d;
+	font-size: 14px;
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-weight: 400;
+	line-height: 22px;
+    margin: 0px 0px 0px 8px;
+	padding-top: 0px;
+		
+}
+.main-section-1-right-content-blog-2-content span{
+	color: #6c757d;
+	font-size: 14px;
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-weight: 400;
+	line-height: 22px; 
+	margin-top: 0px 0px 0px 8px;
+	padding-top: 0px;
+}
+.main-section-1-right-content-blog-3{
+	height:100px;
+	width: 100%;
+	display: flex;
+	margin-top: 15px;
+}
+.main-section-1-right-content-blog-3 a:hover{
+	color: #03A87C;
+}
+.main-section-1-right-content-blog-3 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.main-section-1-right-content-blog-3-content a{
+	color: #191919;
+	font-size: 16px;
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-weight: 700;
+	line-height: 19px; 
+	margin-top: 0px 0px 0px 8px;
+	padding-top: 0px;
+}
+.main-section-1-right-content-blog-3-content .jake-bittle{
+	color: #6c757d;
+	font-size: 14px;
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-weight: 400;
+	line-height: 22px;
+    margin: 0px 0px 0px 8px;
+	padding-top: 0px;
+		
+}
+.main-section-1-right-content-blog-3-content span{
+	color: #6c757d;
+	font-size: 14px;
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-weight: 400;
+	line-height: 22px; 
+	margin: 0px 0px 0px 8px;
+	padding-top: 0px;
+}
+
+/*main-section-end*/
+/*main-section-2 start*/
+.main-section-2{
+	height: 700px;
+	display: flex;
+}
+.all-strories-area{
+	flex: 1 1 200%;
+	margin-right: 30px;
+}
+.title h3{
+	color: #212529;
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	border-bottom: 1px solid #838985;
+	margin: 30px 0px;
+}
+.title h3 span{
+	border-bottom: 1px solid #838985;
+	padding-bottom: 25px;
+}
+.content-image-container{
+	height: 180px;
+	display: flex;
+	margin-top: 20px;
+}
+.all-strories-content{
+	flex: 1 1 250%;
+}
+.all-strories-content a{
+	color: #101214;
+	font-size: 24px;
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-weight: 700;
+	line-height: 29px; 
+	margin: 0px 8px 0px 0px;
+}
+
+.all-strories-content p{
+	color: #101214;
+	font-size: 16px;
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-weight: 400;
+	line-height: 26px;
+	margin: 0px 8px 0px 0px;
+} 
+.all-strories-content a:hover{
+	color: #03A87C;
+}
+.all-strories-content .span-1{
+	color: #101214;
+	font-size: 14px;
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-weight: 400;
+	line-height: 22px;
+	margin: 0px 8px 0px 0px;
+	padding-top: 15px;
+	
+}
+.all-strories-content span{
+	color: #101214;
+	font-size: 14px;
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-weight: 400;
+	line-height: 22px;
+	
+	margin: 0px 8px 0px 0px;
+    
+}
+
+.all-strories-image{
+	flex: 1 1 100%;
+}
+.all-strories-image img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.popular-area{
+	flex: 1 1 100%;
+}
+.number-content-container{
+	height: 80px;
+	display: flex;
+	margin-top: 20px;
+}
+.number-area{
+	flex: 1 1 100%;
+}
+.digits{
+	color: #101214;
+	font-size: 46px;
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-weight: 700;
+	line-height: 20px;
+	margin-top: 20px;
+}
+.number-content-area{
+	flex: 1 1 400%;
+}
+.number-content-area a{
+	color: #212529;
+	font-size: 16px;
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-weight: 700;
+	margin: 0px 0px 0px 3px ;
+}
+.number-content-area a:hover{
+	color: #03A87C;
+}	
+.number-content-area span{
+	color: #6c757d;
+	font-size: 13px;
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-weight: 400;
+	margin: 0px 0px 0px 3px ;
+}	
+/*main-section-2 end*/
+/*footer start*/
+.footer-section{
+	height: 350px;
+	display: flex;
+	border: 1px solid red;
+	margin-top: 30px;
+}
+.footer-container{
+	height: 125px;
+	width: 100%;
+	display: flex;
+	border-bottom: 1px solid #838985;
+	border: 1px solid red;
+	justify-content: center;
+}
+.copyright{
+	flex: 1 1 100%;
+}
+.copyright a{
+	color: #6c757d;
+	font-size: 20px;
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-weight: 700;
+	padding-right: 10px;
+}
+.copyright p{
+	color: #6c757d;
+	font-size: 14px;
+	font-family:"Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-weight: 400;
+	margin-right:40px;
+}
+.last-content p{
+	flex: 1 1 100%;
+}
+.last-content p{
+	color: #6c757d;
+	font-size: 14px;
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-weight: 700;
+}
+.last-content p a{
+	color: #5F1CC5;
+	font-size: 14px;
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-weight: 700;
+}
+
+
+/*footer start*/
